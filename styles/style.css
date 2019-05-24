@@ -59,3 +59,27 @@ div.circle {
   right: -50px;
   border-radius: 50px;
 }
+
+section.s2 {
+  background-color: #c5c5c5;
+}
+
+section.s2 div.square {
+  background-color: #d6ac35;
+}
+
+section.s2 div.circle {
+  background-color: #be3c52;
+}
+
+section.s3 {
+  background-color: #292121;
+}
+
+section.s3 div.square {
+  background-color: #5f3736;
+}
+
+section.s3 div.circle {
+  background-color: #6e5f67;
+}
