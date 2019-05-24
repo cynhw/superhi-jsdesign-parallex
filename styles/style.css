@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "HK Grotesk";
+  src: url(../assets/hk-grotesk.woff2), url(../assets/hk-grotesk.woff);
+}
+
+body {
+  font-family: "HK Grotesk";
+  font-size: 36px;
+  line-height: 1.25;
+
+  background-color: #ffffff;
+  color: #333333;
+}
+
+header {
+  position: fixed;
+  top: 36px;
+  left: 36px;
+  z-index: 1;
+}
+
+/* applying the styles to the content - where the images and shapes live */
+
+section {
+  background-color: #c8dee0;
+  min-height: 100vh;
+  padding: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content {
+  position: relative;
+}
+
+div.content img {
+  position: relative;
+}
+
+div.square {
+  width: 100px;
+  height: 100px;
+  background-color: #d54156;
+  
+  position: absolute;
+  top: 50px;
+  left: -50px;
+}
+
+div.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #5982a0;
+  
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+  border-radius: 50px;
+}
