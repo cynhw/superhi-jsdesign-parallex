@@ -83,3 +83,15 @@ section.s3 div.square {
 section.s3 div.circle {
   background-color: #6e5f67;
 }
+
+section.s4 {
+  background-color: #f3f1f2;
+}
+
+section.s4 div.square {
+  background-color: #d54156;
+}
+
+section.s4 div.circle {
+  background-color: #5982a0;
+}
