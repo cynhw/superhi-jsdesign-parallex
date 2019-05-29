@@ -17,6 +17,28 @@ header {
   top: 36px;
   left: 36px;
   z-index: 1;
+  transition: color 0.5s;
+}
+
+header.white {
+  color: white;
+}
+
+/* styling the progress bar that sits on top of page */
+
+div.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333333;
+  z-index: 1;
+  transition: background-color 0.5s;
+}
+
+div.progress.white {
+  background-color: white;
 }
 
 /* applying the styles to the content - where the images and shapes live */
